@@ -4,15 +4,7 @@ download de XML de NFC-e no portal SVRS (Secretaria da Fazenda do Rio Grande do 
 
 
 
-### Módulos Principais
 
-- **`downloadnfcce/`** - Pacote principal do sistema
-  - **`__init__.py`** - Definições do pacote
-  - **`utils.py`** - Funções de utilitários (validação, parsing, formatação)
-  - **`web_automation.py`** - Automação do portal SVRS com Playwright
-  - **`downloader.py`** - Lógica de gerenciamento de downloads
-  - **`gui.py`** - Interface gráfica do usuário
-  
 
 ### Estrutura de Diretórios
 
@@ -24,20 +16,17 @@ downloadnfcce/
 ├── downloader.py       # Gerenciamento de downloads
 ├── gui.py              # Interface gráfica (Tkinter)
             
-
-app.py                  # Ponto de entrada principal
-requirements.txt        # Dependências
-README.md              # Documentação
-downloads/             # Pasta de saída padrão
+            
+     
 ```
 
-## 🚀 Requisitos
+##  Requisitos
 
 - Python 3.10+
 - Playwright (para automação web)
 - Tkinter (para interface gráfica)
 
-## ⚙️ Instalação
+##  Instalação
 
 ```bash
 # Instalar dependências
@@ -47,9 +36,9 @@ python -m pip install -r requirements.txt
 python -m playwright install chromium
 ```
 
-## 💻 Modo de Uso
+## Modo de Uso
 
-### Interface Gráfica (Padrão)
+### Interface
 
 ```bash
 python app.py
@@ -57,4 +46,3 @@ python app.py
 
 
 
-# Downloadnfc-eCE
