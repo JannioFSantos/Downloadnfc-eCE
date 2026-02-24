@@ -1,0 +1,32 @@
+# Playwright profiles
+.playwright-profile/
+*.playwright-profile
+
+# Dados sensíveis
+*.log
+*.tmp
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
+
+# Diretórios de cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Diretórios de virtualenv
+venv/
+env/
+.venv/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Sistema
+.DS_Store
+Thumbs.db
